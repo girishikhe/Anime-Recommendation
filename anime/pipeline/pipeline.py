@@ -2,7 +2,7 @@ from anime.src.vector_store import VectorStoreBuilder
 from anime.src.recommender import AnimeRecommender
 from anime.config.config import GROQ_API_KEY,MODEL_NAME
 from anime.utils.logger import get_logger
-from anime.utils.custom_exception import CustomException
+from anime.utils.custom_exceptions import CustomException
 
 logger = get_logger(__name__)
 
